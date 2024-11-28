@@ -1,0 +1,385 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  /* background-color: aquamarine; */
+  padding: 15px;
+}
+.logo img {
+  width: 110px;
+}
+.navigation-links a,
+.opimize-button a {
+  margin-inline: 15px;
+  text-decoration: none;
+}
+.nav-button a,
+button {
+  margin-inline: 15px;
+}
+.nav-button a {
+  text-decoration: none;
+  color: #0065fe;
+}
+.nav-button button {
+  background: #0065fe;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  height: 30px;
+  border: none;
+}
+#url {
+  color: #0065fe;
+}
+
+/* styling optimize section */
+.optimize {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-block: 40px;
+}
+.optimize p {
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 60px;
+}
+.optimize img {
+  width: 90px;
+}
+.url-shortening {
+  color: #0065fe;
+}
+.span-text {
+  text-align: center;
+  margin-block: 20px;
+}
+.opimize-button button {
+  background: #0065fe;
+  color: #fff;
+  width: 100px;
+  height: 20px;
+  border-radius: 15px;
+  height: 30px;
+  border: none;
+}
+/* styling optimize section done */
+
+/* styling the cone section */
+.cone-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
+.frame {
+  border: 0.5px solid #005ae2;
+  padding-block: 41px;
+  /* margin-block-start: 4px; */
+  width: 100%;
+  max-width: 650px;
+  position: absolute;
+  border-radius: 20px;
+  background: linear-gradient(45deg, #e2e9f0, #fff, #fff);
+}
+.frame img {
+  width: 300px;
+  margin-inline-start: 50px;
+}
+.frame-text {
+  width: 330px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+.frame-text p {
+  text-align: center;
+}
+.cone img {
+  width: 200px;
+  margin-inline-end: 450px;
+}
+/* styling the cone section done */
+/* styling group 3 image section */
+.group3-image {
+  margin-block-start: 50px;
+  /* width: 90%; */
+}
+.group3-image img {
+  width: 98%;
+}
+/* styling group 3 image section done */
+/* styling one stop section */
+.onestop {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9fbfd;
+  padding-block: 40px;
+}
+.boxes {
+  display: flex;
+  gap: 30px;
+}
+.possible {
+  color: #0065fe;
+}
+.four h3 {
+  font-size: 30px;
+}
+
+/* styling one stop section done */
+/* Styling why choose scissor section */
+.scissors-section {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-inline: 70px;
+  gap: 80px;
+  margin-block: 70px;
+  /* width: 100%;
+  max-width: 700px; */
+}
+.scissors-icon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.why-scissors-container {
+  width: 600px;
+}
+.small-box {
+  width: 100%;
+  max-width: 400px;
+}
+.small-box img,
+h2 {
+  margin-block: 10px;
+}
+.why-scissors-container h1 {
+  padding-block: 30px;
+}
+/* Styling why choose scissor section done */
+
+/* styling price perfect section */
+.price-perfect {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+/* .price-perfect h2 {
+
+} */
+.price {
+  color: #005ae2;
+}
+/* styling price perfect section done */
+/* styling basic professional section */
+.basic-professional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 60px;
+  /* padding: 80px; */
+}
+.basic-content {
+  border: 0.4px solid #005ae2;
+  padding: 30px;
+}
+.basic-content p {
+  line-height: 40px;
+}
+#middle-content {
+  padding-block: 70px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e3448;
+  color: #ffffff;
+}
+#middle-content img {
+  color: #ffffff;
+}
+
+.basic-button {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 30px;
+}
+.custom-pricing {
+  border: 0.4px solid #005ae2;
+  color: #005ae2;
+  height: 40px;
+  /* padding-block: 12px; */
+  width: 180px;
+  border-radius: 20px;
+}
+.select-price {
+  height: 40px;
+  width: 180px;
+  border-radius: 20px;
+  background-color: #0065fe;
+  color: #ffffff;
+  border: none;
+}
+/* styling basic professional section done */
+/* styling trim url section */
+.trim-url-container {
+  background-color: #1e3448;
+  min-height: 40vh;
+  margin-block: 40px;
+  padding-block: 20px;
+}
+.white-background {
+  min-height: 30vh;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-block: 50px;
+  padding-block: 35px;
+  border-radius: 10px;
+}
+.my-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.second-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  gap: 10px;
+}
+.long-input {
+  width: 350px;
+  padding: 13px;
+  border-radius: 8px;
+  border: 0.4px solid #005ae2;
+}
+.short-input {
+  width: 170px;
+  padding: 13px;
+  border-radius: 8px;
+  border: 0.4px solid #005ae2;
+}
+.button-text {
+  width: 350px;
+}
+.button-text p {
+  color: #4991ff;
+  font-size: 16.5px;
+}
+
+/* styling trim url section done*/
+/* Styling faq section */
+.faq-container {
+  /* border: 0.4px solid #005ae2; */
+  min-height: 60vh;
+  width: 100%;
+  max-width: 780px;
+  padding: 20px;
+  margin: auto;
+}
+.faq-image {
+  padding-block: 35px;
+}
+.faq-container img {
+  display: block;
+  margin: 0 auto;
+  /* margin-block: 30px; */
+}
+.faq-summary {
+  display: flex;
+}
+.faq-text-container1 {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  margin-block: 20px;
+}
+.faq-text-container {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5;
+  box-shadow: 0px 0px 1px;
+  padding-block: 20px;
+}
+.faq-summary p {
+  font-size: 22px;
+  color: #141414;
+}
+.apart {
+  font-size: 17px;
+  margin-block: 20px;
+}
+/* .faq-texts {
+  padding: 20px;
+} */
+/* Styling faq section done */
+/* styling revolution section */
+.revolution {
+  background-color: #1e3448;
+  min-height: 40vh;
+  margin-block: 50px;
+  padding-block: 60px;
+}
+.revolution-test {
+  line-height: 3.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.revolution-test p {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.revolution-test button {
+  width: 200px;
+  height: 48px;
+  border-radius: 100px;
+  background-color: #005ae2;
+  color: #ffffff;
+  border: none;
+}
+
+/* styling revolution section done */
+
+/* styling footer section */
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer-text {
+  width: 200px;
+  line-height: 1.6;
+}
+/* #footr {
+  margin-block-start: 10px;
+} */
+/* styling footer section done */
